@@ -52,8 +52,8 @@ Before writing anything to Notion or generating audio, identify:
    - Use NotebookLM Studio audio generation when available.
    - Create one audio overview per lesson/chapter bundle unless the user requests a combined episode.
    - Title artifacts consistently, for example:
-     - `Lesson 7 + Thagard Chapter 8 中文 Deep Dive Audio`
-     - `Lesson 8 + Thagard Chapters 9-10 中文 Deep Dive Audio`
+     - `Week 3 Lecture + Textbook Chapter 4 中文 Deep Dive Audio`
+     - `Research Paper + Lecture Notes 中文 Deep Dive Audio`
    - Prompt for Chinese, long-form, source-grounded discussion with clear explanations and review emphasis.
    - Poll status until completed or error. Report artifact URLs/status in the final response.
 

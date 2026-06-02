@@ -14,11 +14,11 @@ This project packages a repeatable learning workflow:
 4. Generate Chinese deep dive audio overviews in NotebookLM Studio.
 5. Verify that the Notion pages and audio artifacts were created.
 
-The skill was designed around real coursework workflows such as:
+The skill is designed for common study workflows such as:
 
-- `Lesson 7 + Thagard Chapter 8`
-- `Lesson 8 + Thagard Chapters 9-10`
-- `Lesson 9 + Thagard Chapters 11-12`
+- `Week 3 lecture transcript + Textbook Chapter 4`
+- `Research paper + professor's lecture notes`
+- `Training module video transcript + internal handbook section`
 
 ## Why It Is Useful
 
@@ -38,7 +38,7 @@ It is especially useful for:
 .
 ├── README.md
 ├── examples/
-│   └── cs6795-workflow.md
+│   └── course-workflow.md
 └── skills/
     └── notebooklm-to-notion/
         ├── SKILL.md
@@ -62,14 +62,14 @@ Restart Codex after installing so the skill can be discovered.
 ```text
 Use notebooklm-to-notion.
 
-In my NotebookLM notebook "CS6795 Intro to Cog Science", use the course transcript and Thagard book sources.
+In my NotebookLM notebook "Machine Learning Foundations", use the lecture transcript source and textbook chapter source.
 
 Create structured bilingual learning notes and Chinese deep dive audio overviews for:
-- Lesson 7 + Chapter 8
-- Lesson 8 + Chapters 9-10
-- Lesson 9 + Chapters 11-12
+- Week 3 Lecture + Textbook Chapter 4
+- Week 4 Lecture + Textbook Chapter 5
+- Week 5 Lecture + Assigned Research Paper
 
-Save the notes under my Notion page "CS6795 Intro to Cog Science" as lesson child pages.
+Save the notes under my Notion page "Machine Learning Foundations" as weekly study pages.
 ```
 
 ## Tech Stack
@@ -99,11 +99,11 @@ Built a reusable AI workflow skill that integrates NotebookLM and Notion to auto
 4. 在 NotebookLM Studio 中生成中文 Deep Dive Audio Overview。
 5. 回读验证 Notion 页面和音频 artifact 是否创建成功。
 
-这个 Skill 的设计来自真实课程学习场景，例如：
+这个 Skill 适用于常见学习场景，例如：
 
-- `Lesson 7 + Thagard Chapter 8`
-- `Lesson 8 + Thagard Chapters 9-10`
-- `Lesson 9 + Thagard Chapters 11-12`
+- `第 3 周课程 transcript + 教材第 4 章`
+- `研究论文 + 教授课堂笔记`
+- `培训视频 transcript + 内部手册章节`
 
 ## 为什么有用
 
@@ -123,7 +123,7 @@ Built a reusable AI workflow skill that integrates NotebookLM and Notion to auto
 .
 ├── README.md
 ├── examples/
-│   └── cs6795-workflow.md
+│   └── course-workflow.md
 └── skills/
     └── notebooklm-to-notion/
         ├── SKILL.md
@@ -147,14 +147,14 @@ cp -R skills/notebooklm-to-notion ~/.codex/skills/
 ```text
 Use notebooklm-to-notion.
 
-在我的 NotebookLM notebook "CS6795 Intro to Cog Science" 中，使用课程 transcript 和 Thagard 教材 sources。
+在我的 NotebookLM notebook "Machine Learning Foundations" 中，使用 lecture transcript source 和 textbook chapter source。
 
 为以下内容生成结构化中英双语学习笔记和中文 deep dive audio overview：
-- Lesson 7 + Chapter 8
-- Lesson 8 + Chapters 9-10
-- Lesson 9 + Chapters 11-12
+- Week 3 Lecture + Textbook Chapter 4
+- Week 4 Lecture + Textbook Chapter 5
+- Week 5 Lecture + Assigned Research Paper
 
-把学习笔记保存到我的 Notion 页面 "CS6795 Intro to Cog Science" 下，作为 lesson 子页面。
+把学习笔记保存到我的 Notion 页面 "Machine Learning Foundations" 下，作为每周学习子页面。
 ```
 
 ## 技术栈

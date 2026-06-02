@@ -5,7 +5,7 @@ This example shows how to use the skill for a cognitive science course.
 ## User Request
 
 ```text
-Use notebooklm-learning-to-notion.
+Use notebooklm-to-notion.
 
 NotebookLM notebook: CS6795 Intro to Cog Science
 Notion parent page: CS6795 Intro to Cog Science

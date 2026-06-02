@@ -1,0 +1,4 @@
+interface:
+  display_name: "NotebookLM to Notion"
+  short_description: "NotebookLM notes to Notion"
+  default_prompt: "Use NotebookLM to Notion to summarize selected course materials, create matching Notion lesson pages, and generate Chinese deep dive audio overviews."

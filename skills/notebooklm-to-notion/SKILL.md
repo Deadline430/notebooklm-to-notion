@@ -1,9 +1,9 @@
 ---
-name: notebooklm-learning-to-notion
+name: notebooklm-to-notion
 description: Use when turning selected NotebookLM notebook materials, course lessons, book chapters, PDFs, transcripts, or readings into structured study notes in Notion, especially when the user also wants Chinese deep dive audio overviews.
 ---
 
-# NotebookLM Learning to Notion
+# NotebookLM to Notion
 
 ## Overview
 
